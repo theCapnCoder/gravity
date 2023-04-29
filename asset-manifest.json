@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gravity/static/css/main.071f023f.css",
+    "main.js": "/gravity/static/js/main.8e28016f.js",
+    "index.html": "/gravity/index.html",
+    "main.071f023f.css.map": "/gravity/static/css/main.071f023f.css.map",
+    "main.8e28016f.js.map": "/gravity/static/js/main.8e28016f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.071f023f.css",
+    "static/js/main.8e28016f.js"
+  ]
+}
