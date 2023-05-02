@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h2 {
+    @apply text-[27px] leading-[43px] text-forest-shadow desktop:text-[48px] desktop:leading-[72px];
+  }
+
+  h3 {
+    @apply text-[16px] leading-[26px] tracking-[-0.02em] text-forest-shadow desktop:text-[24px] desktop:leading-[32px];
+  }
+
+  p {
+    @apply text-[20px] font-medium leading-[24px] tracking-[-0.02em] text-midnight-slate;
+  }
+}
+
+.text_button {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #22322F;
+}
+
+.button_shadow {
+  box-shadow: 2px 2px 0px 0px rgba(0 0 0 /1);
+}

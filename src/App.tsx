@@ -1,13 +1,13 @@
 import React from "react";
+import { Header } from "./blocks/Header";
+import { Main } from "./blocks/Main";
 
 function App() {
   return (
-    <div>
-      <div>
-        <h2 className="hidden mobile:back">Hello</h2>
-        <h3 className="text-red-500">Hello</h3>
-      </div>
-    </div>
+    <>
+      <Header />
+      <Main />
+    </>
   );
 }
 
