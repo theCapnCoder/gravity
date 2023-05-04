@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/gravity/static/css/main.81a4d290.css",
-    "main.js": "/gravity/static/js/main.21197074.js",
+    "main.css": "/gravity/static/css/main.ac059b4c.css",
+    "main.js": "/gravity/static/js/main.c77d94dc.js",
+    "static/media/main.jpg": "/gravity/static/media/main.b6ad4e4b7015a206d675.jpg",
     "index.html": "/gravity/index.html",
-    "main.81a4d290.css.map": "/gravity/static/css/main.81a4d290.css.map",
-    "main.21197074.js.map": "/gravity/static/js/main.21197074.js.map"
+    "main.ac059b4c.css.map": "/gravity/static/css/main.ac059b4c.css.map",
+    "main.c77d94dc.js.map": "/gravity/static/js/main.c77d94dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.81a4d290.css",
-    "static/js/main.21197074.js"
+    "static/css/main.ac059b4c.css",
+    "static/js/main.c77d94dc.js"
   ]
 }
