@@ -16,6 +16,29 @@
   }
 }
 
+:root {
+  --neon-green: #39FF14;
+  --hot-pink: #FF69B4;
+  --electric-blue: #00FFFF;
+  --acid-yellow: #F0FF00;
+  --bright-purple: #BF00FF;
+  --electric-orange: #FFA500;
+  --fluorescent-red: #FF1493;
+  --lime-green: #00FF00;
+  --coral-pink: #FF7F50;
+  --sky-blue: #87CEEB;
+  --magenta: #FF00FF;
+  --canary-yellow: #FFFF99;
+  --turquoise: #40E0D0;
+  --vivid-red: #FF0000;
+  --neon-orange: #FFA343;
+  --fuschia-pink: #FF00AF;
+  --bright-cyan: #00FFFF;
+  --chartreuse: #7FFF00;
+  --deep-saffron: #FF9933;
+  --electric-purple: #CC00FF;
+}
+
 .text_button_sm {
   font-family: 'SF Pro Display';
   font-style: normal;
@@ -65,4 +88,64 @@
     padding: 20px 22.5px;
     font-size: 18px;
   }
+}
+
+/*Popup (Don't need to check)*/
+
+.button_popup_doc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--chartreuse);
+  color: var(--fluorescent-red);
+  padding: 8px 15px;
+  border-radius: 15px;
+}
+
+.overlay_doc {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay_doc:target {
+  visibility: visible;
+  opacity: 1;
+  overflow: auto;
+}
+
+.popup_doc {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 80%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup_doc .close_doc {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup_doc .close_doc:hover {
+  color: #06D85F;
+}
+
+.popup_doc .content_doc {
+  max-height: 30%;
+  /* overflow: auto; */
 }
