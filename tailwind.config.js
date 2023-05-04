@@ -4,11 +4,11 @@ module.exports = {
     container: {
       center: true,
       screens: {
-        mobile: "375px",
+        mobile: "376px",
         desktop: "1440px",
       },
       padding: {
-        mobile: "24px",
+        DEFAULT: "24px",
         desktop: "120px",
       },
     },
@@ -17,7 +17,7 @@ module.exports = {
     },
     extend: {
       screens: {
-        mobile: "320px",
+        mobile: "376px",
         desktop: "1440px",
       },
       colors: {
