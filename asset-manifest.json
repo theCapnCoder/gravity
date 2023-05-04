@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/gravity/static/css/main.ac059b4c.css",
-    "main.js": "/gravity/static/js/main.c77d94dc.js",
+    "main.css": "/gravity/static/css/main.663c1746.css",
+    "main.js": "/gravity/static/js/main.c45b8fd5.js",
     "static/media/main.jpg": "/gravity/static/media/main.b6ad4e4b7015a206d675.jpg",
+    "static/media/Desktop.jpg": "/gravity/static/media/Desktop.f04f297b7329e4414d8e.jpg",
+    "static/media/Mobile.jpg": "/gravity/static/media/Mobile.3e9d3445e89ad338a1dc.jpg",
     "index.html": "/gravity/index.html",
-    "main.ac059b4c.css.map": "/gravity/static/css/main.ac059b4c.css.map",
-    "main.c77d94dc.js.map": "/gravity/static/js/main.c77d94dc.js.map"
+    "main.663c1746.css.map": "/gravity/static/css/main.663c1746.css.map",
+    "main.c45b8fd5.js.map": "/gravity/static/js/main.c45b8fd5.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac059b4c.css",
-    "static/js/main.c77d94dc.js"
+    "static/css/main.663c1746.css",
+    "static/js/main.c45b8fd5.js"
   ]
 }
