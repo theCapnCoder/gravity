@@ -1,7 +1,11 @@
-import React from 'react'
+import { FC } from "react";
 
-export const Button = () => {
+type Props = {
+  text?: string;
+};
+
+export const Button: FC<Props> = ({ text }) => {
   return (
-    <div>Button</div>
-  )
-}
+    <button className="button_main">{text ?? "Request early access"}</button>
+  );
+};
