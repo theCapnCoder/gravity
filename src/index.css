@@ -16,7 +16,7 @@
   }
 }
 
-.text_button {
+.text_button_sm {
   font-family: 'SF Pro Display';
   font-style: normal;
   font-weight: 700;
@@ -27,6 +27,42 @@
   color: #22322F;
 }
 
+.text_button_lg {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+
 .button_shadow {
   box-shadow: 2px 2px 0px 0px rgba(0 0 0 /1);
+}
+
+.button_main {
+  padding: 10px 24px;
+  background: #71A89E;
+  box-shadow: 1px 2px 0px 0px rgba(0 0 0 /1);
+  border: 2px solid #000000;
+  border-radius: 8px;
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.button_main:hover {
+  color: red;
+  background: orange;
+}
+
+@media (min-width: 376px) {
+  .button_main {
+    padding: 20px 22.5px;
+    font-size: 18px;
+  }
 }
